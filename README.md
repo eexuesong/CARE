@@ -1,5 +1,7 @@
 # CARE
 
+This repository is an updated and detailed version of [IsotropicZ_Github.py](https://github.com/eexuesong/SIMreconProject/tree/main/DeepLearning) in repository [SIMreconProject](https://github.com/eexuesong/SIMreconProject) to improve axial resolution in 3D SIM.
+
 ## Environment Configuration:
 1.  Install [Anaconda](https://www.anaconda.com/download) and [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows).
 
