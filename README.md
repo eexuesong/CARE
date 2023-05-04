@@ -83,13 +83,12 @@ This repository is an updated and detailed version of [IsotropicZ_Github.py](htt
 
 ## Notes:
  (1) Do the following before initializing TensorFlow to limit TensorFlow to first GPU:
-    ```posh
+ 
     import os
     os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-    ```
 
  (2) You can find out which version of TensorFlow is installed via:
-    ```posh
+
     pip show tensorflow
-    ```
+
