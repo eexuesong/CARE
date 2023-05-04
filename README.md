@@ -3,15 +3,23 @@
 This repository is an updated and detailed version of [IsotropicZ_Github.py](https://github.com/eexuesong/SIMreconProject/tree/main/DeepLearning) in repository [SIMreconProject](https://github.com/eexuesong/SIMreconProject) to improve axial resolution in 3D SIM.
 
 ## Environment Configuration:
-1.  Install [Anaconda](https://www.anaconda.com/download) and [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows).
+1. Install [Anaconda](https://www.anaconda.com/download) and [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows).
 
-2.1 In Pycharm, create a new project named e.g. "CARE" using Conda environment. A new environment with same name will also be created.
-2.2 Or in Anaconda Prompt, create a new environment named "CARE" by:
+2. Create a conda environment.
+    - In Pycharm, create a new project named e.g. "CARE" using [Conda environment](https://www.jetbrains.com/help/pycharm/conda-support-creating-conda-virtual-environment.html). A new environment with same name will also be created.
+    - Or in [Anaconda Prompt](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html), create a new environment named "CARE" by:
+    ```posh
         conda create --name CARE
+    ```
     To see a list of all your environments, type:
+    ```posh
         conda info --envs
-        or: conda env list
-    In Pycharm, create a new project named e.g. "CARE" using Conda environment.
+    ```
+        or:
+    ```posh
+        conda env list
+    ```
+    Then in Pycharm, create a new project named e.g. "CARE" using Conda environment.
     Select the location of the Conda environment we just created as:
         C:\Users\username\AppData\Local\anaconda3\envs\CARE
 
