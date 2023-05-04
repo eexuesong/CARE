@@ -2,6 +2,20 @@
 
 This repository is an updated and detailed version of [IsotropicZ_Github.py](https://github.com/eexuesong/SIMreconProject/tree/main/DeepLearning) in repository [SIMreconProject](https://github.com/eexuesong/SIMreconProject) to improve axial resolution in 3D SIM.
 
+## System Requirements
+
+- Windows 10. Linux and Mac OS should be able to run the code but the code has been only tested on Windows 10 so far.
+- Python 3.7+
+- NVIDIA GPU
+- CUDA 11.2 and cuDNN 8.1.0
+
+Tested Environment:
+
+- Windows 10
+- Python 3.10
+- NVIDIA RTX A5000 24 GB
+- CUDA 11.2 and cuDNN 8.1.0
+
 ## Environment Configuration:
 1. Install [Anaconda](https://www.anaconda.com/download) and [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows).
 
@@ -80,6 +94,8 @@ This repository is an updated and detailed version of [IsotropicZ_Github.py](htt
      ```
 
 10. Use ctrl-C in the Terminal to terminate the process.
+
+11. Code run sequence: datagen_isotropic.py --> training_3D.py --> prediction_isotropic_6degree.py
 
 ## Notes:
  (1) Do the following before initializing TensorFlow to limit TensorFlow to first GPU:
