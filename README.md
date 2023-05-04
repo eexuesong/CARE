@@ -85,7 +85,9 @@ Tested Environment:
 ## Run Files:
 8. Copy these files into the Pycharm project "CARE" folder and modify it accordingly.
 
-9. Run code
+9. Copy "[ImageJ_formatted_TIFF.m](https://github.com/eexuesong/ImageJ_format_tiff/blob/main/ImageJ_formatted_TIFF.m)" and "[Simple_IFD.m](https://github.com/eexuesong/ImageJ_format_tiff/blob/main/Simple_IFD.m)" from [ImageJ_format_tiff](https://github.com/eexuesong/ImageJ_format_tiff.git) repository.
+
+10. Run code
      - In Pycharm, run the current file by Shift + F10
      - In Anaconda Prompt, run the Python file, e.g.:
      ```posh
@@ -93,9 +95,9 @@ Tested Environment:
      Python datagen_isotropic.py
      ```
 
-10. Use ctrl-C in the Terminal to terminate the process.
+11. Use ctrl-C in the Terminal to terminate the process.
 
-11. Code run sequence: datagen_isotropic.py --> training_3D.py --> prediction_isotropic_6degree.py
+12. Code run sequence: datagen_isotropic.py --> training_3D.py --> prediction_isotropic_6degree.py
 
 ## Notes:
  (1) Do the following before initializing TensorFlow to limit TensorFlow to first GPU:
