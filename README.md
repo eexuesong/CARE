@@ -54,7 +54,7 @@ This repository is an updated and detailed version of [IsotropicZ_Github.py](htt
     python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
     ```
     
-7.  Finally, install the latest stable version of the [CSBDeep](https://pypi.org/project/csbdeep/) package with pip.
+7. Finally, install the latest stable version of the [CSBDeep](https://pypi.org/project/csbdeep/) package with pip.
     - If you installed TensorFlow 2 (version 2.x.x):
     ```posh
     pip install csbdeep
@@ -69,19 +69,27 @@ This repository is an updated and detailed version of [IsotropicZ_Github.py](htt
     conda install -c conda-forge scikit-image
     ```
 
-8.  Copy this file into the Pycharm project "CARE" folder and modify it accordingly.
+8. Copy these files into the Pycharm project "CARE" folder and modify it accordingly.
 
-9.1 In Pycharm, run the current file by Shift + F10
-9.2 Or in Anaconda Prompt, run the Python file, e.g.:
-        cd /D D:\Code\Python Code\CARE
-        Python IsotropicZ_Github.py
+9. Run code
+     - In Pycharm, run the current file by Shift + F10
+     - In Anaconda Prompt, run the Python file, e.g.:
+     ```posh
+     cd /D D:\Code\Python Code\CARE
+     Python datagen_isotropic.py
+     ```
 
-10.  Use ctrl-C in the Terminal to terminate the process.
+10. Use ctrl-C in the Terminal to terminate the process.
 
 Note:
-    (1) Do the following before initializing TensorFlow to limit TensorFlow to first GPU.
+    (1) Do the following before initializing TensorFlow to limit TensorFlow to first GPU:
+    ```posh
     import os
     os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+    ```
 
-    (2) You can find out which version of TensorFlow is installed via "pip show tensorflow".
+    (2) You can find out which version of TensorFlow is installed via:
+    ```posh
+    pip show tensorflow
+    ```
