@@ -33,15 +33,16 @@ This repository is an updated and detailed version of [IsotropicZ_Github.py](htt
 ## Package Installation:
 4. GPU setup
     
-    Important, or you will run DL on CPU instead. Without a GPU, training and prediction will be much slower
-    (~30-60 times, even when using a computer with 40 CPU cores):
+    Note: Important, or you will run DL on CPU instead. Without a GPU, training and prediction will be much slower (~30-60 times, even when using a computer with 40 CPU cores):
     
-    First install NVIDIA GPU driver if you have not.
+    - First install NVIDIA GPU driver if you have not.
 
-    For GPU support, it is very important to install the specific versions of CUDA and cuDNN
-    that are compatible with the respective version of TensorFlow.
-    Install the CUDA (11.2), cuDNN (8.1.0) https://www.tensorflow.org/install/source_windows#gpu:
+    - For GPU support, it is very important to install the specific versions of CUDA and cuDNN that are compatible with the respective version of TensorFlow.
+        
+        Install the CUDA (11.2), cuDNN (8.1.0) ([Question about version selection?](https://www.tensorflow.org/install/source_windows#gpu:)):
+        ```posh
         conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+        ```
 
 5. In Anaconda Promp, install [TensorFlow 2.10](https://pypi.org/project/tensorflow/2.10.0/):
     ```posh
