@@ -68,7 +68,7 @@ This repository is an updated and detailed version of [IsotropicZ_Github.py](htt
     ```posh
     conda install -c conda-forge scikit-image
     ```
-
+## Run Files:
 8. Copy these files into the Pycharm project "CARE" folder and modify it accordingly.
 
 9. Run code
@@ -81,15 +81,15 @@ This repository is an updated and detailed version of [IsotropicZ_Github.py](htt
 
 10. Use ctrl-C in the Terminal to terminate the process.
 
-Note:
-    (1) Do the following before initializing TensorFlow to limit TensorFlow to first GPU:
+## Notes:
+ (1) Do the following before initializing TensorFlow to limit TensorFlow to first GPU:
     ```posh
     import os
     os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     ```
 
-    (2) You can find out which version of TensorFlow is installed via:
+ (2) You can find out which version of TensorFlow is installed via:
     ```posh
     pip show tensorflow
     ```
