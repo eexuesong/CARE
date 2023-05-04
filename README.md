@@ -97,7 +97,7 @@ Tested Environment:
 
 11. Use ctrl-C in the Terminal to terminate the process.
 
-12. Code run sequence: [datagen_isotropic.py](https://github.com/eexuesong/CARE/blob/main/datagen_isotropic.py) --> [training_3D.py](https://github.com/eexuesong/CARE/blob/main/training_3D.py) --> prediction_isotropic_6degree.py
+12. Code run sequence: [datagen_isotropic.py](https://github.com/eexuesong/CARE/blob/main/datagen_isotropic.py) --> [training_3D.py](https://github.com/eexuesong/CARE/blob/main/training_3D.py) --> [prediction_isotropic_6degree.py](https://github.com/eexuesong/CARE/blob/main/prediction_isotropic_6degree.py)
 
 ## Notes:
  (1) Do the following before initializing TensorFlow to limit TensorFlow to first GPU:
