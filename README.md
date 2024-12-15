@@ -60,7 +60,7 @@ Tested Environment:
 
 5. In Anaconda Promp, install [TensorFlow 2.10](https://pypi.org/project/tensorflow/2.10.0/):
     ```posh
-    pip install tensorflow==2.10
+    conda install tensorflow==2.10
     ```
 
 6. In Anaconda Promp, verify the GPU setup:
