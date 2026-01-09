@@ -23,7 +23,7 @@ Tested Environment:
     - In Pycharm, create a new project named e.g. "CARE" using [Conda environment](https://www.jetbrains.com/help/pycharm/conda-support-creating-conda-virtual-environment.html). A new environment with same name will also be created.
     - Or in [Anaconda Prompt](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html), create a new environment named "CARE" by:
         ```posh
-        conda create --name CARE
+        conda create --name CARE python=3.9
         ```
         To see a list of all your environments, type:
         ```posh
